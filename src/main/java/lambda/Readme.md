@@ -28,7 +28,7 @@ newThread( () -> System.out.println("In Java8!") ).start();
 如果你的方法并不改变任何方法参数，比如只是输出，那么可以简写如下：
 
 ```
-() ->; System.out.println("Hello Lambda Expressions");
+() -> System.out.println("Hello Lambda Expressions");
 ```
 
 如果你的方法接受两个方法参数，如下：
