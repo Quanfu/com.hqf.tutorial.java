@@ -4,6 +4,7 @@ package UnitTest;
  * Created by huoquanfu on 2016/4/28.
  */
 
+
 import org.junit.Test;
 
 import java.util.Map;
@@ -53,7 +54,7 @@ public class EmployeeEmailTest {
         /*Act*/
         int size = empEmail.hashMap.size();
         /*Assert*/
-        assertNotSame("Duplicate key in collection ", 3, size);
+        assertNotEquals("Duplicate key in collection ", 3, size);
     }
 
     @Test
