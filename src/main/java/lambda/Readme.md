@@ -1,15 +1,17 @@
 ### 1. 实现Runnable线程案例
 
 使用() -&gt; {} 替代匿名类：
-```
+
+```java
 //Before Java 8:newThread(new Runnable() {
-    @Overridepublicvoidrun() {
+    @Override
+    publicvoidrun() {
         System.out.println("Before Java8 ");
     }
 }).start();
 ```
 
-```
+```java
 //Java 8 way:
 newThread( () -> System.out.println("In Java8!") ).start();
 ```     
