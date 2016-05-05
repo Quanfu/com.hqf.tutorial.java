@@ -12,6 +12,9 @@ public class LamadaUnitTest {
         LamadaInList.TestAggrateFunction();
         LamadaInList.TestForeach();
 
+        //整数数组,转为字符串
+        LamadaInList.TestIntListToString();
+
         LamadaInString.Test();
 
         LamadaInFunction.Test();
