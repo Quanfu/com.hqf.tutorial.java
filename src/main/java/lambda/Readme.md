@@ -270,5 +270,5 @@ System.out.println("Average of all prime numbers : " + stats.getAverage());
 
 * * *
 
- ![图片](../../../../pics/Java-8-Streams-cheat-sheet-v3.png)
-  ![图片](../../../../pics/RebelLabs-java-8-cheat-sheet.png)
+![图片](../../../../pics/Java-8-Streams-cheat-sheet-v3.png)
+![图片](../../../../pics/RebelLabs-Java-8-cheat-sheet.png)
